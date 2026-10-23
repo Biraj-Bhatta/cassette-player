@@ -45,4 +45,3 @@ require (
 	modernc.org/memory v1.12.1 // indirect
 )
 
-// replace github.com/wailsapp/wails/v2 v2.16.0 => /home/biraj/.cache/go/mod
