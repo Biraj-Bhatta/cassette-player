@@ -14,7 +14,7 @@ param(
     $AppName      = "Cassette Player"
     $ExeName      = "cassette-player.exe"
     $WailsVersion = "v2.16.0"
-    $Root         = $PSScriptRoot
+    $Root         = Split-Path -Parent $PSScriptRoot
     $InstallDir   = Join-Path $env:LOCALAPPDATA "Programs\Cassette Player"
     $StartMenuLnk = Join-Path $env:APPDATA "Microsoft\Windows\Start Menu\Programs\Cassette Player.lnk"
     $DesktopLnk   = Join-Path ([Environment]::GetFolderPath("Desktop")) "Cassette Player.lnk"
